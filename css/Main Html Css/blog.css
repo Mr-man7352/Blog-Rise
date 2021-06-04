@@ -1,0 +1,216 @@
+/*******************Blog Section Css Starts**************/
+.blog{
+    position:relative;
+    border:5px solid green;
+    height:2500px; 
+    overflow: hidden;
+    width: 100%;
+}
+/************Blogs left hand side section css starts**********/
+.blogPost{
+    position:absolute;
+    left:0;
+    border:1px solid black;
+    height:5000px;
+    width: 50%;
+    overflow: hidden;
+    margin-left:10rem;
+}
+.blogPost div{
+    
+    height:750px;
+    border:1px solid blue;
+    text-align:center;
+    margin:2rem;
+}
+.blogPost img{
+    height:500px;
+    width:100%;
+    background-size: 100% 100%;
+    padding:2rem 0;
+    
+}
+
+.page-link{
+    color:black;
+
+    
+}
+/****************blogs right hand side css starts**********/
+.blogFeature{
+    position: absolute;
+    right:0;
+    border:1px solid red;
+    height:2400px;
+    width:25%;
+    overflow:hidden;
+    margin-right: 5rem;
+    
+}
+/*****Why raf Portion******/
+.description{
+    height:400px;
+    border:1px solid blue;
+    text-align:center;
+    margin:2rem;
+    overflow:hidden;
+}
+.imgRAF{
+    height: 200px;
+    width:100%;
+    background-size:100% 100%;
+}
+.RAFp{
+ font-weight: bold;
+ text-align: center;
+}
+/*****Popular post portion*******/
+.FeaturePost{
+    height:400px;
+    border:1px solid blue;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+}
+.FeaturePost img{
+    height: 100px;
+    width:50%;
+    background-size:100% 100%;
+}
+.PopularPost-image{
+
+}
+.PopularPost-heading a{
+  color:black;
+}
+
+.PopularPost1{
+ margin:1rem 0;
+}
+.PopularPost2{ 
+ margin:1rem 0;
+}
+.PopularPost3{
+    margin:1rem 0;
+}
+.PopularPost4{
+    margin:1rem 0;
+}
+.PopularPost5{
+    margin:1rem 0;
+}
+/********Advertisement Portion********/
+.advertise{
+    height:150px;
+    border:1px solid blue;
+    text-align:center;
+    margin:2rem;
+    background-color: grey;
+    overflow: hidden;
+}
+.ads{
+    margin:auto;
+    width:90%;
+    height:30px;
+    background-color: #fff;
+}
+/*******Tags Portion**********/
+.tags{
+    height:400px;
+    border:1px solid blue;
+    margin:2rem;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow:hidden;
+}
+
+    
+.tags button{
+   height:2rem;
+   width:5rem;
+   margin:25px 1rem;
+   border-radius:20%;
+   background-color: rgba(255, 94, 98, 1);
+   color:#fff;
+
+  }
+  /********instagram feed portion*********/
+  .instagram{
+    height:300px;
+    border:1px solid blue;
+    text-align:center;
+    margin:2rem;
+    overflow: hidden;
+  }
+.instagram img{
+    height:100px;
+    width:100px;
+    background-size: 100% 100%;
+    margin:1rem;
+}  
+/*******Follow Us portion*************/
+.followUs {
+    margin:2rem;
+    height:150px;
+    border:1px solid blue;
+    text-align:center;
+    overflow: hidden;
+
+    /* display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; */
+}
+.sci{
+    margin-left:3.5rem;
+}
+/**************Subscribe portion***************/
+.subscribe{
+    height:300px;
+    border:1px solid blue;
+    margin:2rem;
+    text-align:center;
+    overflow: hidden;
+}
+.inputClass1{
+    margin:1rem;
+    padding:0.5rem;
+    text-align: center;
+}
+.text{
+    font-weight: bold;
+    font-size:1.25em;
+}
+@media(max-width:1024px){
+    .sci{
+        margin:1rem;
+    }
+}
+@media(max-width:991px){
+   .blogPost{
+       width:70%;
+    margin-left:10px;
+   } 
+   .blogFeature{
+      width:30%;
+      margin-right:0px; 
+   }
+  .sci li{
+      margin:0;
+  }
+}
+
+@media(max-width:768px){
+    .blog{
+        height:4900px;
+    }
+    .blogPost{
+     width:100%;
+    }
+    .blogFeature{
+        width:100%;
+        top:2500px;
+    
+    }
+
+}
