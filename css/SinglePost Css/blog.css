@@ -230,14 +230,14 @@ color:#6C757D;
 
 @media(max-width:768px){
     .blog{
-        height:7000px;
+        height:7500px;
     }
     .blogPost{
      width:100%;
     }
     .blogFeature{
         width:100%;
-        top:4400px;
+        top:5000px;
     
     }
 
