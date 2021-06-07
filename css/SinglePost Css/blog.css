@@ -228,7 +228,7 @@ color:#6C757D;
   }
 }
 
-@media(max-width:768px){
+@media(max-width:800px){
     .blog{
         height:7000px;
     }
@@ -241,4 +241,12 @@ color:#6C757D;
     
     }
 
+}
+@media(max-width:600px){
+    .blog{
+        height:9600px;
+    }
+    .blogFeature{
+        top:6900px;
+    }
 }

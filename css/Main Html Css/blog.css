@@ -257,3 +257,11 @@
     }
 
 }
+@media(max-width:600px){
+    .blog{
+        height:6000px;
+    }
+    .blogFeature{
+        top:3300px;
+    }
+}
