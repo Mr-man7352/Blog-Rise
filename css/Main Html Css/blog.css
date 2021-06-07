@@ -249,7 +249,7 @@
     }
     .blogFeature{
         width:100%;
-        top:2750px;
+        top:2900px;
     
     }
     .navigation{
@@ -257,6 +257,7 @@
     }
 
 }
+
 @media(max-width:600px){
     .blog{
         height:6000px;
@@ -265,3 +266,4 @@
         top:3300px;
     }
 }
+

@@ -230,18 +230,19 @@ color:#6C757D;
 
 @media(max-width:800px){
     .blog{
-        height:7000px;
+        height:7500px;
     }
     .blogPost{
      width:100%;
     }
     .blogFeature{
         width:100%;
-        top:4400px;
+        top:5000px;
     
     }
 
 }
+
 @media(max-width:600px){
     .blog{
         height:9600px;
@@ -250,3 +251,4 @@ color:#6C757D;
         top:6900px;
     }
 }
+
