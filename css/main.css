@@ -16,8 +16,8 @@
     padding:0px;
   }
 body{
-    /* background-color: antiquewhite; */
-    background-color: #fff;
+    background-color: antiquewhite;
+    /* background-color: #fff; */
 }
  .header{
     background-image: url("../images/header.jpg");
