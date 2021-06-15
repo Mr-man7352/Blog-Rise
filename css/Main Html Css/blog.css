@@ -5,6 +5,7 @@
     overflow: hidden;
     width: 100%;
     display:inline-block;
+
 }
 /************Blogs left hand side section css starts**********/
 .blogPost{
@@ -272,6 +273,7 @@
     }
     .blogPost{
      width:100%;
+     margin:auto;
     }
     .blogFeature{
         width:100%;
@@ -297,5 +299,22 @@
     .tags button{
         margin:auto;
     }
+    .blogPost{
+        width: 100%;
+    }
+    .blogPost img{
+        height:400px;
+       }
 }
+@media(max-width:350px){
+    
+    .blogPost{
+        width:100%;
+        margin:auto;
+       }
+    .blogPost img{
+        height:320px;
+       }
+}
+
 
