@@ -23,6 +23,8 @@
     margin:2rem;
     display: inline-block;
     padding:1rem;
+    background-color: white;
+
 }
 .myBlogs p{
     font-size:22px;
@@ -80,15 +82,20 @@
     margin:2rem;
     overflow:hidden;
     display:inline-block;
+    background-color: white;
+
 }
 .imgRAF{
     height: 200px;
-    width:100%;
+    width:90%;
     background-size:100% 100%;
 }
 .RAFp{
-    color:#6C757D;
- text-align: center;
+    color: #6C757D;
+    text-align: center;
+    font-size: 19px;
+    padding: 17px;
+
 }
 /*****Popular post portion*******/
 .FeaturePost{
@@ -99,6 +106,9 @@
     margin:2rem;
     overflow: hidden;
     display:inline-block;
+    background-color: white;
+    display: none;
+
 }
 .FeaturePost img{
     height: 100px;
@@ -137,7 +147,7 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
     margin:2rem;
-    background-color: grey;
+    background-color: white;
     overflow: hidden;
 }
 .ads{
@@ -154,6 +164,8 @@
     margin:2rem;
     overflow:hidden;
     display: inline-block;
+    background-color: white;
+    display: none;
 }
 .tagName{
     text-align: center;
@@ -163,12 +175,12 @@
 .tags button{
    height:2rem;
    width:5rem;
-   margin:5px;
+   margin:5px 5px 5px 1.4rem;;
    border-radius:20%;
    background-color: rgba(255, 94, 98, 1);
    color:#fff;
    display:inline-block;
-
+    
   }
   .tags button:hover{
       opacity:0.5;
@@ -182,6 +194,8 @@
     text-align:center;
     margin:2rem;
     overflow: hidden;
+    background-color: white;
+
   }
 .instagram img{
     height:100px;
@@ -198,6 +212,9 @@
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
     overflow: hidden;
+    background-color: white;
+
+    
 
     /* display: flex;
     justify-content: space-around;
@@ -205,16 +222,19 @@
 }
 .sci{
     margin-left:3.5rem;
+    list-style-type: none;
 }
 /**************Subscribe portion***************/
 .subscribe{
     height:300px;
     border: 1px solid rgba(0,0,0,.125);
-    border-radius: .25rem;
+    border-radius: 5px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     margin:2rem;
     text-align:center;
     overflow: hidden;
+    background-color: white;
+
 }
 
 .text{
@@ -224,6 +244,9 @@
 @media(max-width:1024px){
     .sci{
         margin:1rem;
+    }
+    .tags button{
+        margin:auto;
     }
 }
 @media(max-width:991px){
@@ -238,6 +261,9 @@
   .sci li{
       margin:0;
   }
+  .tags button{
+    margin:auto;
+}
 }
 
 @media(max-width:800px){
@@ -255,6 +281,9 @@
     .navigation{
         margin-left:12.5rem;
     }
+    .tags button{
+        margin:auto;
+    }
 
 }
 
@@ -264,6 +293,9 @@
     }
     .blogFeature{
         top:3300px;
+    }
+    .tags button{
+        margin:auto;
     }
 }
 

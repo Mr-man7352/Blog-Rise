@@ -17,6 +17,7 @@
   }
 body{
     background-color: antiquewhite;
+    text-align: center;
     /* background-color: #fff; */
 }
  .header{
@@ -53,7 +54,7 @@ body{
 
  .inputClass{
    width:20%;
-   margin-left:1rem;
+   margin:auto;
    display: block;
   min-height: calc(1.5em + .75rem + 2px);
   padding: .375rem .75rem;
@@ -70,10 +71,11 @@ body{
   border-radius: .25rem;
   transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
  }
+
  @media(max-width:968px){
    .inputClass{
     width:40%;
-    margin-left:1rem;
+    margin:auto;
     display: block;
    min-height: calc(1.5em + .75rem + 2px);
    padding: .375rem .75rem;
@@ -122,7 +124,8 @@ body{
   outline: none;
   display:block;
   margin-top:0.5rem;
-  margin-left:1rem;
+  margin:1rem auto;
+  border-radius:5px;
 
  }
  .headerImage,.instaImage{
