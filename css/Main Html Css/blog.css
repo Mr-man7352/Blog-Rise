@@ -1,20 +1,20 @@
 /*******************Blog Section Css Starts**************/
 .blog{
     position:relative;
-    height:3000px; 
+    height:2570px; 
     overflow: hidden;
     width: 100%;
     display:inline-block;
 
 }
 /************Blogs left hand side section css starts**********/
-.blogPost{
-    position:absolute;
-    left:0;
-    width: 50%;
+.blogPost {
+    position: absolute;
+    left: 0;
+    width: 60%;
     overflow: hidden;
-    margin-left:10rem;
-    display:inline-block;
+    margin-left: 5rem;
+    display: inline-block;
 }
 .myBlogs {
     border: 1px solid rgba(0,0,0,.125);
@@ -28,24 +28,33 @@
 
 }
 .myBlogs p{
-    font-size:22px;
+    font-size:19px;
     color:#6C757D;
 }
 .myBlogs a:hover{
     text-decoration: none;
 }
-.blogPost img{
-    height:500px;
-    width:100%;
+.blogPost img {
+    height: 480px;
+    width: 97%;
     background-size: 100% 100%;
-    padding:2rem 0;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+    .headerLink {
+        background-color: rgb(255, 94, 98);
+        color: rgb(255, 255, 255);
+        padding: 0.25rem 0.45rem;
+        margin-top: 9px;
+        border-radius: 34px;
+    }
+
+    .blogDescription{
+        text-align: left;
+        margin: 0 1rem;
+
     
-}
-.headerLink{
-    background-color:rgba(255, 94, 98, 1);
-    color:#fff;
-    padding:0.25rem;
-}
+    }
 .headerLink:hover{
     text-decoration:none;
     color:#fff;
@@ -76,6 +85,7 @@
 }
 /*****Why raf Portion******/
 .description{
+    padding-top: 5px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
@@ -142,6 +152,7 @@
 }
 /********Advertisement Portion********/
 .advertise{
+    padding-top: 5px;
     height:150px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -159,6 +170,7 @@
 }
 /*******Tags Portion**********/
 .tags{
+    padding-top: 5px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
@@ -174,6 +186,7 @@
 
     
 .tags button{
+    padding-top: 5px;
    height:2rem;
    width:5rem;
    margin:5px 5px 5px 1.4rem;;
@@ -188,7 +201,8 @@
   }
   /********instagram feed portion*********/
   .instagram{
-    height:300px;
+    padding-top: 5px;
+    height:320px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
@@ -206,6 +220,7 @@
 }  
 /*******Follow Us portion*************/
 .followUs {
+    padding-top: 5px;
         margin: 2rem;
         height: 126px;
         border: 1px solid rgba(0,0,0,.125);
@@ -226,6 +241,7 @@
 }
 /**************Subscribe portion***************/
 .subscribe{
+    padding-top: 5px;
     height:300px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 5px;
