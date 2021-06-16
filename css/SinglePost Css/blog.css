@@ -194,22 +194,23 @@
 }  
 /*******Follow Us portion*************/
 .followUs {
-    margin:2rem;
-    height:150px;
+    margin: 2rem;
+    height: 126px;
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    text-align:center;
+    text-align: center;
     overflow: hidden;
     background-color: white;
-
-
-    /* display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap; */
+/* display: flex;
+justify-content: space-around;
+flex-wrap: wrap; */
 }
 .sci{
-    margin-left:3.5rem;
+display: flex;
+justify-content: space-evenly;
+font-size: 35px;
+list-style-type: none;
 }
 /**************Subscribe portion***************/
 .subscribe{
