@@ -206,6 +206,13 @@
 justify-content: space-around;
 flex-wrap: wrap; */
 }
+.fa-instagram-square{
+    color:#fb3958;
+ }
+ .fab:hover{
+     opacity: 0.5;
+     color:#ff8013;
+ }
 .sci{
 display: flex;
 justify-content: space-evenly;
@@ -250,7 +257,7 @@ list-style-type: none;
 
 @media(max-width:800px){
     .blog{
-        height:7500px;
+        height:5000px;
     }
     .blogPost{
      width:100%;
@@ -258,8 +265,7 @@ list-style-type: none;
     }
     .blogFeature{
         width:100%;
-        top:5000px;
-    
+      
     }
 
 }
@@ -279,14 +285,5 @@ list-style-type: none;
         height:400px;
        }
 }
-@media(max-width:350px){
-    
-    .blogPost{
-        width:100%;
-        margin:auto;
-       }
-    .blogPost img{
-        height:320px;
-       }
-}
+
 
