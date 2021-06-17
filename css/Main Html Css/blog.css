@@ -293,7 +293,7 @@
 @media(max-width:800px){
     .blog{
         height:4500px;
-        background-color: royalblue;
+        
     }
     .blogPost{
      width:100%;
@@ -316,10 +316,9 @@
 @media(max-width:625px){
     .blog{
         height:4000px;
-        background-color: seagreen;
     }
     .blogFeature{
-        top: 2200px;
+        top: 3000px;
     }
     .tags button{
         margin:auto;
@@ -327,9 +326,6 @@
     .blogPost{
         width: 100%;
        }
-    .blogFeature div{
-        
-    }
     .blogPost img{
         height:400px;
        }
