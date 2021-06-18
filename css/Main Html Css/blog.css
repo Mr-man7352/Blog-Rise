@@ -16,6 +16,7 @@
     margin-left: 5rem;
     display: inline-block;
 }
+
 .myBlogs {
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
@@ -76,11 +77,11 @@
 /****************blogs right hand side css starts**********/
 .blogFeature{
     position: absolute;
-    right:0;
-    width:25%;
-    overflow:hidden;
-    margin-right: 5rem;
-    display:inline-block;
+    right: 0;
+    width: 25.5%;
+    overflow: hidden;
+    margin-right: 1.5rem;
+    display: inline-block;
     
 }
 /*****Why raf Portion******/
@@ -90,12 +91,36 @@
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
-    margin:2rem;
+    margin-top: 2rem;
     overflow:hidden;
     display:inline-block;
     background-color: white;
 
 }
+
+h2{
+    margin: 0;
+}
+ .border{
+    content: '';
+    position: relative;
+    bottom: -3px;
+    margin-bottom: 10px;
+    left: 70px;
+    width: 170px;
+    border-radius: 150px;
+    height: 6px;
+    background-color: rgba(255, 94, 98, 1);
+}
+.description .border{
+    
+    bottom: -3px;
+    margin-bottom: 10px;
+    left: 70px;
+    width: 170px;
+    
+}
+
 .imgRAF{
     height: 200px;
     width:90%;
@@ -114,13 +139,14 @@
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
-    margin:2rem;
+    margin-top: 2rem;
     overflow: hidden;
     display:inline-block;
     background-color: white;
     display: none;
 
 }
+
 .FeaturePost img{
     height: 100px;
     width:50%;
@@ -158,9 +184,15 @@
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
-    margin:2rem;
+   margin-top: 2rem;
     background-color: white;
     overflow: hidden;
+}
+.advertise .border{
+    bottom: 1px;
+    margin-bottom: 10px;
+    left: 114px;
+    width: 84px;
 }
 .ads{
     margin:auto;
@@ -174,7 +206,7 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    margin:2rem;
+   margin-top: 2rem;
     overflow:hidden;
     display: inline-block;
     background-color: white;
@@ -207,11 +239,18 @@
     border-radius: .25rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
     text-align:center;
-    margin:2rem;
+   margin-top: 2rem;
     overflow: hidden;
     background-color: white;
 
   }
+  .instagram .border{
+    bottom: -6px;
+    margin-bottom: 10px;
+    left: 70px;
+    width: 179px;
+}
+
 .instagram img{
     height:100px;
     width:100px;
@@ -222,7 +261,7 @@
 /*******Follow Us portion*************/
 .followUs {
     padding-top: 5px;
-        margin: 2rem;
+    margin-top: 2rem;
         height: 126px;
         border: 1px solid rgba(0,0,0,.125);
         border-radius: .25rem;
@@ -233,6 +272,12 @@
     /* display: flex;
     justify-content: space-around;
     flex-wrap: wrap; */
+}
+.followUs .border{
+    bottom: 1px;
+    margin-bottom: 10px;
+    left: 110px;
+    width: 95px;
 }
 .fa-instagram-square{
    color:#fb3958;
@@ -247,6 +292,10 @@
     font-size: 35px;
     list-style-type: none;
 }
+
+.sci li a {
+    color: #fb3958;
+}
 /**************Subscribe portion***************/
 .subscribe{
     padding-top: 5px;
@@ -254,13 +303,18 @@
     border: 1px solid rgba(0,0,0,.125);
     border-radius: 5px;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-    margin:2rem;
+   margin-top: 2rem;
     text-align:center;
     overflow: hidden;
     background-color: white;
 
 }
-
+.subscribe .border{
+    bottom: 1px;
+    margin-bottom: 10px;
+    left: 83px;
+    width: 159px;
+}
 .text{
     font-weight: bold;
     font-size:1.25em;
